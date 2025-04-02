@@ -26,6 +26,26 @@
                 <p>
                     Descreva as características e marque os opcionais que ele possui
                 </p>
+
+                <form>
+                    <div class="box-input">
+                        <label for="title">Titulo do anuncio <span class="required-field">*</span></label>
+                        <input type="text" name="title" id="title" class="block"
+                            placeholder="Um titulo para anunciar seu carro" minlength="1" maxlength="30" required>
+                    </div>
+
+                    <div class="box-input">
+                        <label for="price">Preço <span class="required-field">*</span></label>
+                        <input type="number" name="price" id="price" class="block" placeholder="Defina o preço"
+                            required>
+                    </div>
+
+                    <div class="box-input">
+                        <label for="description">Descrição <span class="required-field">*</span></label>
+                        <input type="textarea" name="description" id="description" class="block" placeholder="7.8"
+                            minlength="1" maxlength="30" required>
+                    </div>
+                </form>
             </div>
         </div> <!-- Fim div form container -->
 
